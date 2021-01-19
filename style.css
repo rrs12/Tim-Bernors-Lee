@@ -1,0 +1,94 @@
+body {
+	text-align: center;
+	background: linear-gradient(#3293a8 0%, #3273a8 100%);
+}
+
+#welcome {
+	padding: 100px;
+	position: absolute;
+	overflow: hidden;
+	height: 800px;
+	color: white;
+	opacity: 0.83;
+	display: table;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 9;
+}
+
+
+.profile {
+	border-radius: 50%;
+	width: 175px;
+	margin-bottom: 50px;
+}
+
+#name {
+	font-size: 40px;
+	line-height: 1.2;
+	font-family: fantasy;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1.2;
+	font-family: sans-serif;
+	color: white;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 1.2;
+	font-family: monospace;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 1.2;
+	font-family: cursive;
+	color: antiquewhite;
+}
+#bio{
+padding-top:500px
+}
+
+h3 {
+	color: aquamarine;
+	font-size: 30px;
+}
+
+.menu {
+	list-style: none;
+	font-family: serif;
+	position: absolute;
+	top: 10px;
+	z-index: 10;
+	cursor: pointer;
+	right: 350px;
+}
+
+.links {
+	float: left;
+	color: azure;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+.links:hover {
+	background-color: darkcyan;
+}
+a{
+text-decoration:none;
+color: white;
+}
+.article:hover{
+color:papayawhip;
+}
